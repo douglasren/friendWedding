@@ -9,8 +9,14 @@
 namespace Home\Library;
 
 
-class encode {
+class Encode {
 
-    static
-    
+    const OK                        = 1;
+    const SSOTicketIfnvalid         = 65531;
+    const ParamError                = 65532;
+    const RequestMethodError        = 65533;
+    const CSRFError                 = 65534;
+    const ServerError               = 65535;
+    const ConcurrentLimit       = 56001;
+
 }

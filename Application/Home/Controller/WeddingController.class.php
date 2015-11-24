@@ -1,8 +1,44 @@
 <?php
 namespace Home\Controller;
+use Home\Library\BaseUtil;
+use Home\Library\Encode;
 use Think\Controller;
-class IndexController extends Controller {
-    public function index(){
-        $this->show('<style type="text/css">*{ padding: 0; margin: 0; } div{ padding: 4px 48px;} body{ background: #fff; font-family: "微软雅黑"; color: #333;font-size:24px} h1{ font-size: 100px; font-weight: normal; margin-bottom: 12px; } p{ line-height: 1.8em; font-size: 36px } a,a:hover{color:blue;}</style><div style="padding: 24px 48px;"> <h1>:)</h1><p>欢迎使用 <b>ThinkPHP</b>！</p><br/>版本 V{$Think.version}</div><script type="text/javascript" src="http://ad.topthink.com/Public/static/client.js"></script><thinkad id="ad_55e75dfae343f5a1"></thinkad><script type="text/javascript" src="http://tajs.qq.com/stats?sId=9347272" charset="UTF-8"></script>','utf-8');
+
+class WeddingController extends Controller {
+    public function indexAction(){
+        $this->display('wedding');
+    }
+
+    public function mainAction() {
+        $left_days = BaseUtil::getLeftDay();
+        \Think\Log::record('main: data:' . json_encode(BaseUtil::getBlessingData(5)));
+        $this->assign('left_days', $left_days);
+        $this->assign('datalist', BaseUtil::getBlessingData(5));
+        $this->assign('total', BaseUtil::getBlessingNum());
+        $this->display('wedding');
+    }
+
+    public function submitAction() {
+
+        $name = trim(I('name'));
+        $phone = trim(I('phone'));
+        $num = intval(I('num'));
+        $content = trim(I('content'));
+
+        $data = array();
+        $data['name'] = $name;
+        $data['phone'] = $phone;
+        $data['trunout'] = $num;
+        $data['blessing'] = $content;
+        $data['time'] = time();
+
+        $res = array();
+        $res['ret'] = Encode::OK;
+
+        $flag = M('wedding')->add($data);
+        if (!$flag) {
+            $res['ret'] = Encode::ServerError;
+        }
+        $this->ajaxReturn($res);
     }
 }
