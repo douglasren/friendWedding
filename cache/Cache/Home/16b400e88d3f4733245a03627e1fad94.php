@@ -1,22 +1,22 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!-- saved from url=(0028)http://www.188xi.com/3-86175 -->
 <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no">
 <title>
 我们结婚啦!</title>
-<link rel="stylesheet" type="text/css" href="{$Think.config.static_path}css/style.css">
-<link rel="stylesheet" type="text/css" href="{$Think.config.static_path}css/custom.css">
-<link rel="stylesheet" type="text/css" href="{$Think.config.static_path}css/styles.css">
-<link rel="stylesheet" type="text/css" href="{$Think.config.static_path}css/styles11.css">
+<link rel="stylesheet" type="text/css" href="<?php echo (C("static_path")); ?>css/style.css">
+<link rel="stylesheet" type="text/css" href="<?php echo (C("static_path")); ?>css/custom.css">
+<link rel="stylesheet" type="text/css" href="<?php echo (C("static_path")); ?>css/styles.css">
+<link rel="stylesheet" type="text/css" href="<?php echo (C("static_path")); ?>css/styles11.css">
 
 <link href="http://cdn.staticfile.org/photoswipe/3.0.5/photoswipe.css" rel="stylesheet">
 
-<script src="{$Think.config.static_path}js/hm.js"></script><script type="text/javascript" src="{$Think.config.static_path}js/jquery.min.js"></script>
-<script src="{$Think.config.static_path}js/jquery-ui.min.js"></script>
+<script src="<?php echo (C("static_path")); ?>js/hm.js"></script><script type="text/javascript" src="<?php echo (C("static_path")); ?>js/jquery.min.js"></script>
+<script src="<?php echo (C("static_path")); ?>js/jquery-ui.min.js"></script>
 
-<script src="{$Think.config.static_path}js/klass.min.js"></script>
-<script type="text/javascript" src="{$Think.config.static_path}js/code.photoswipe.jquery.min.js"></script>
+<script src="<?php echo (C("static_path")); ?>js/klass.min.js"></script>
+<script type="text/javascript" src="<?php echo (C("static_path")); ?>js/code.photoswipe.jquery.min.js"></script>
 
 <script type="text/javascript">
 		(function(window, $, PhotoSwipe){
@@ -53,7 +53,7 @@ body{ max-width:640px; }
 
 <body id="jsBg">
    <div style="display:none">
-<img src="{$Think.config.static_path}js/FjKhHqFtLT1Nn93VvLZ27dNXRnh4">
+<img src="<?php echo (C("static_path")); ?>js/FjKhHqFtLT1Nn93VvLZ27dNXRnh4">
 
 </div>
 <style>
@@ -65,7 +65,7 @@ body{ max-width:640px; }
 
 <div id="Loading" style="display: none;">
     <div id="heart">
-        <img src="{$Think.config.static_path}images/12.gif">
+        <img src="<?php echo (C("static_path")); ?>images/12.gif">
     </div>
     <div id="welcometext">幸福加载中</div>
 </div>
@@ -165,7 +165,7 @@ window.onload=function(){
                     <div class="inner-main-ml">
                         <div class="inner-main-mm">
 <!-- 大圖 -->  
-                             <div id="fmbox"> <img id="invite_webimg" src="{$Think.config.static_path}js/Fp7lvM8tpvzlw1CQCYt-75IOxNid" width="100%" alt="Mobile Wedding Invitations">
+                             <div id="fmbox"> <img id="invite_webimg" src="<?php echo (C("static_path")); ?>js/Fp7lvM8tpvzlw1CQCYt-75IOxNid" width="100%" alt="Mobile Wedding Invitations">
                              </div>
                        	  <div id="img_videobutton_placeholder" style="position:relative;"> 
                             <!--有视频再开启
@@ -234,7 +234,7 @@ window.onload=function(){
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="http://www.188xi.com/3-86175#"><img class="iconimage" src="{$Think.config.static_path}images/1.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">爱的邀约</span></a>
+    			<a href="http://www.188xi.com/3-86175#"><img class="iconimage" src="<?php echo (C("static_path")); ?>images/1.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">爱的邀约</span></a>
             </div>
             </div>
             </div>
@@ -268,7 +268,7 @@ window.onload=function(){
    <table width="100%" class="head">
        <tbody><tr>
            <td align="right"><h3>王鲲鹏</h3><p>新郎</p></td>
-           <td width="100" align="center"><img src="{$Think.config.static_path}images/rose.png" alt="rose"></td>
+           <td width="100" align="center"><img src="<?php echo (C("static_path")); ?>images/rose.png" alt="rose"></td>
            <td align="left"><h3>王静静</h3><p>新娘</p></td>
        </tr>
    </tbody></table>
@@ -295,8 +295,8 @@ window.onload=function(){
 
 
  <div class="line"></div>
-<div style="text-align:center; margin:8px 20px;">     <a href="tel:15138968203"><img src="{$Think.config.static_path}images/phone1.png" width="80" height="35"></a>
-      <a href="tel:15639905607"><img src="{$Think.config.static_path}images/phone2.png" width="80" height="35"></a>
+<div style="text-align:center; margin:8px 20px;">     <a href="tel:15138968203"><img src="<?php echo (C("static_path")); ?>images/phone1.png" width="80" height="35"></a>
+      <a href="tel:15639905607"><img src="<?php echo (C("static_path")); ?>images/phone2.png" width="80" height="35"></a>
  </div>
   
 
@@ -316,7 +316,7 @@ window.onload=function(){
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="http://www.188xi.com/3-86175#"><img class="iconimage" src="{$Think.config.static_path}images/2.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">婚纱相册</span></a>            </div>
+    			<a href="http://www.188xi.com/3-86175#"><img class="iconimage" src="<?php echo (C("static_path")); ?>images/2.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">婚纱相册</span></a>            </div>
             </div>
             </div>
 
@@ -333,39 +333,39 @@ window.onload=function(){
  <ul id="Gallery" class="gallery">             
         
         
-               <li><a href="http://7qn9tb.com1.z0.glb.clouddn.com/FjWzeJ7jnxaFZIiqv20t40VqUo2u" rel="external"><img src="{$Think.config.static_path}js/FjWzeJ7jnxaFZIiqv20t40VqUo2u"></a></li>
+               <li><a href="http://7qn9tb.com1.z0.glb.clouddn.com/FjWzeJ7jnxaFZIiqv20t40VqUo2u" rel="external"><img src="<?php echo (C("static_path")); ?>js/FjWzeJ7jnxaFZIiqv20t40VqUo2u"></a></li>
                 
         
         
-               <li><a href="http://7qn9tb.com1.z0.glb.clouddn.com/FgO0jLj-pdTjyY08vHOvsBoF4fpC" rel="external"><img src="{$Think.config.static_path}js/FgO0jLj-pdTjyY08vHOvsBoF4fpC"></a></li>
+               <li><a href="http://7qn9tb.com1.z0.glb.clouddn.com/FgO0jLj-pdTjyY08vHOvsBoF4fpC" rel="external"><img src="<?php echo (C("static_path")); ?>js/FgO0jLj-pdTjyY08vHOvsBoF4fpC"></a></li>
                 
         
         
-               <li><a href="http://7qn9tb.com1.z0.glb.clouddn.com/FuyILvNMco3a-vGsZZeyCZuo1dXL" rel="external"><img src="{$Think.config.static_path}js/FuyILvNMco3a-vGsZZeyCZuo1dXL"></a></li>
+               <li><a href="http://7qn9tb.com1.z0.glb.clouddn.com/FuyILvNMco3a-vGsZZeyCZuo1dXL" rel="external"><img src="<?php echo (C("static_path")); ?>js/FuyILvNMco3a-vGsZZeyCZuo1dXL"></a></li>
                 
         
         
-               <li><a href="http://7qn9tb.com1.z0.glb.clouddn.com/FqDfXpuXsdZ9behbNPFMg89P2y2J" rel="external"><img src="{$Think.config.static_path}js/FqDfXpuXsdZ9behbNPFMg89P2y2J"></a></li>
+               <li><a href="http://7qn9tb.com1.z0.glb.clouddn.com/FqDfXpuXsdZ9behbNPFMg89P2y2J" rel="external"><img src="<?php echo (C("static_path")); ?>js/FqDfXpuXsdZ9behbNPFMg89P2y2J"></a></li>
                 
         
         
-               <li><a href="http://7qn9tb.com1.z0.glb.clouddn.com/FjMDUkAUXjTAA97NIORAS6QTrYRy" rel="external"><img src="{$Think.config.static_path}js/FjMDUkAUXjTAA97NIORAS6QTrYRy"></a></li>
+               <li><a href="http://7qn9tb.com1.z0.glb.clouddn.com/FjMDUkAUXjTAA97NIORAS6QTrYRy" rel="external"><img src="<?php echo (C("static_path")); ?>js/FjMDUkAUXjTAA97NIORAS6QTrYRy"></a></li>
                 
         
         
-               <li><a href="http://7qn9tb.com1.z0.glb.clouddn.com/FlONCOlSW22Fp-WjsCYwTq4qi3Xc" rel="external"><img src="{$Think.config.static_path}js/FlONCOlSW22Fp-WjsCYwTq4qi3Xc"></a></li>
+               <li><a href="http://7qn9tb.com1.z0.glb.clouddn.com/FlONCOlSW22Fp-WjsCYwTq4qi3Xc" rel="external"><img src="<?php echo (C("static_path")); ?>js/FlONCOlSW22Fp-WjsCYwTq4qi3Xc"></a></li>
                 
         
         
-               <li><a href="http://7qn9tb.com1.z0.glb.clouddn.com/FnWCX8NCgswHtzHioSGNhv_KkGQL" rel="external"><img src="{$Think.config.static_path}js/FnWCX8NCgswHtzHioSGNhv_KkGQL"></a></li>
+               <li><a href="http://7qn9tb.com1.z0.glb.clouddn.com/FnWCX8NCgswHtzHioSGNhv_KkGQL" rel="external"><img src="<?php echo (C("static_path")); ?>js/FnWCX8NCgswHtzHioSGNhv_KkGQL"></a></li>
                 
         
         
-               <li><a href="http://7qn9tb.com1.z0.glb.clouddn.com/FkUCs8w-KxZgmt7zwUV-pa5x3y7x" rel="external"><img src="{$Think.config.static_path}js/FkUCs8w-KxZgmt7zwUV-pa5x3y7x"></a></li>
+               <li><a href="http://7qn9tb.com1.z0.glb.clouddn.com/FkUCs8w-KxZgmt7zwUV-pa5x3y7x" rel="external"><img src="<?php echo (C("static_path")); ?>js/FkUCs8w-KxZgmt7zwUV-pa5x3y7x"></a></li>
                 
         
         
-               <li><a href="http://7qn9tb.com1.z0.glb.clouddn.com/FpfcFCZxbUtDb3MZPlKHNzcVY8Dl" rel="external"><img src="{$Think.config.static_path}js/FpfcFCZxbUtDb3MZPlKHNzcVY8Dl"></a></li>
+               <li><a href="http://7qn9tb.com1.z0.glb.clouddn.com/FpfcFCZxbUtDb3MZPlKHNzcVY8Dl" rel="external"><img src="<?php echo (C("static_path")); ?>js/FpfcFCZxbUtDb3MZPlKHNzcVY8Dl"></a></li>
         </ul>
                                
 	</div>
@@ -383,7 +383,7 @@ window.onload=function(){
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="http://www.188xi.com/3-86175#"><img class="iconimage" src="{$Think.config.static_path}images/3.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">婚宴回函</span></a>            </div>
+    			<a href="http://www.188xi.com/3-86175#"><img class="iconimage" src="<?php echo (C("static_path")); ?>images/3.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">婚宴回函</span></a>            </div>
             </div>
             </div>
             <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
@@ -556,28 +556,23 @@ function loadComment()
         <div class="H commenthead">
                  	亲友祝福
            
-           <i id="total">({$total}条)</i></div>
+           <i id="total">(<?php echo ($total); ?>条)</i></div>
  				<ul class="commentlist" id="comment">
 
 
-        <eq name="total" value="0">
-            <li>
+        <?php if(($total) == "0"): ?><li>
             <p class="content">快来送上第一条祝福吧</p>
             </li>
-            <else/>
+            <?php else: ?>
 
 
-            <volist name="datalist" id="vo">
-                <li>
+            <?php if(is_array($datalist)): $i = 0; $__LIST__ = $datalist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li>
                     <h3 class="meta">
-                        {$vo.name}
-                        <time>{$vo.time}</time>
+                        <?php echo ($vo["name"]); ?>
+                        <time><?php echo ($vo["time"]); ?></time>
                     </h3>
-                    <p class="content">{$vo.blessing}</p>
-                </li>
-            </volist>
-
-        </eq>
+                    <p class="content"><?php echo ($vo["blessing"]); ?></p>
+                </li><?php endforeach; endif; else: echo "" ;endif; endif; ?>
 
 
 		                </ul>
@@ -664,7 +659,7 @@ if (tn==''||tn=='您的姓名'){
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="http://www.188xi.com/3-86175#"><img class="iconimage" src="{$Think.config.static_path}images/4.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7095">婚宴地图</span></a></div>
+    			<a href="http://www.188xi.com/3-86175#"><img class="iconimage" src="<?php echo (C("static_path")); ?>images/4.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7095">婚宴地图</span></a></div>
             </div>
             </div>
             <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
@@ -673,9 +668,9 @@ if (tn==''||tn=='您的姓名'){
      
 <div class="accordion my-map ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" id="invite_detail_content7095" style="display: none;" role="tabpanel">
 
- 	<div style="width: 95%; height: 295px; border: 1px solid rgb(204, 204, 204); overflow: hidden; position: relative; z-index: 0; color: rgb(0, 0, 0); text-align: left; background-color: rgb(243, 241, 236);" id="map_container"><div style="overflow: visible; position: absolute; z-index: 0; left: 0px; top: 0px; cursor: url(http://api.map.baidu.com/images/openhand.cur) 8 8, default;"><div class="BMap_mask" style="position: absolute; left: 0px; top: 0px; z-index: 9; overflow: hidden; -webkit-user-select: none; width: 0px; height: 0px;"></div><div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 200;"><div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 800;"></div><div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 700;"><span class="BMap_Marker BMap_noprint" unselectable="on" "="" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; width: 19px; height: 25px; left: -10px; top: -25px; z-index: -6715558; background: url(http://api.map.baidu.com/images/blank.gif);" title=""></span></div><div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 600;"></div><div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 500;"></div><div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 400;"><span class="BMap_Marker" unselectable="on" style="position: absolute; padding: 0px; margin: 0px; border: 0px; width: 0px; height: 0px; left: -10px; top: -25px; z-index: -6715558;"><div style="position: absolute; margin: 0px; padding: 0px; width: 19px; height: 25px; overflow: hidden;"><img src="{$Think.config.static_path}images/marker_red_sprite.png" style="border:none;left:0px; top:0px; position:absolute;"></div></span></div><div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 300;"><span unselectable="on" style="position: absolute; padding: 0px; margin: 0px; border: 0px; width: 20px; height: 11px; left: -6px; top: -11px;"><div style="position: absolute; margin: 0px; padding: 0px; width: 20px; height: 11px; overflow: hidden;"><img src="{$Think.config.static_path}images/marker_red_sprite.png" style="border:none;left:-19px; top:-13px; position:absolute;"></div></span></div><div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 200;"></div></div><div style="position: absolute; top: 0px; left: 0px; z-index: 1; -webkit-backface-visibility: hidden;"><div style="position: absolute; z-index: -100; left: 0px; top: 0px;"><img src="{$Think.config.static_path}js/saved_resource" style="position: absolute; border: none; width: 256px; height: 256px; left: -168px; top: -18px; opacity: 1;"></div></div><div style="position: absolute; top: 0px; left: 0px; z-index: 2;"></div></div><div class=" anchorBL" style="height: 32px; position: absolute; z-index: 10; bottom: 0px; right: auto; top: auto; left: 1px; display: none;"><a title="到百度地图查看此区域" target="_blank" href="http://map.baidu.com/?sr=1" style="outline: none;"><img style="border:none;width:77px;height:32px" src="{$Think.config.static_path}images/copyright_logo.png"></a></div><div id="zoomer" style="position:absolute;z-index:0;top:0px;left:0px;overflow:hidden;visibility:hidden;cursor:url(http://api.map.baidu.com/images/openhand.cur) 8 8,default"><div class="BMap_zoomer" style="top:0;left:0;"></div><div class="BMap_zoomer" style="top:0;right:0;"></div><div class="BMap_zoomer" style="bottom:0;left:0;"></div><div class="BMap_zoomer" style="bottom:0;right:0;"></div></div><div unselectable="on" class=" BMap_stdMpCtrl BMap_stdMpType0 BMap_noprint anchorTL" style="width: 62px; height: 204px; bottom: auto; right: auto; top: 10px; left: 10px; position: absolute; z-index: 1100;"><div class="BMap_stdMpPan"><div class="BMap_button BMap_panN" title="向上平移"></div><div class="BMap_button BMap_panW" title="向左平移"></div><div class="BMap_button BMap_panE" title="向右平移"></div><div class="BMap_button BMap_panS" title="向下平移"></div><div class="BMap_stdMpPanBg BMap_smcbg"></div></div><div class="BMap_stdMpZoom" style="height: 159px; width: 62px;"><div class="BMap_button BMap_stdMpZoomIn" title="放大一级"><div class="BMap_smcbg"></div></div><div class="BMap_button BMap_stdMpZoomOut" title="缩小一级" style="top: 138px;"><div class="BMap_smcbg"></div></div><div class="BMap_stdMpSlider" style="height: 120px;"><div class="BMap_stdMpSliderBgTop" style="height: 120px;"><div class="BMap_smcbg"></div></div><div class="BMap_stdMpSliderBgBot" style="top: 25px; height: 99px;"></div><div class="BMap_stdMpSliderMask" title="放置到此级别"></div><div class="BMap_stdMpSliderBar" title="拖动缩放" style="cursor: url(http://api.map.baidu.com/images/openhand.cur) 8 8, default; top: 25px;"><div class="BMap_smcbg"></div></div></div><div class="BMap_zlHolder"><div class="BMap_zlSt"><div class="BMap_smcbg"></div></div><div class="BMap_zlCity"><div class="BMap_smcbg"></div></div><div class="BMap_zlProv"><div class="BMap_smcbg"></div></div><div class="BMap_zlCountry"><div class="BMap_smcbg"></div></div></div></div></div><div unselectable="on" class=" BMap_cpyCtrl anchorBL" style="cursor: default; white-space: nowrap; color: black; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: 15px; font-family: arial, sans-serif; bottom: 2px; right: auto; top: auto; left: 4px; position: absolute; z-index: 10; background: none;"><span _cid="1" style="display: inline;"><span style="font-size:11px">© 2015 Baidu&nbsp;- Data © <a target="_blank" href="http://www.navinfo.com/">NavInfo</a> &amp; <a target="_blank" href="http://www.cennavi.com.cn/">CenNavi</a> &amp; <a target="_blank" href="http://www.365ditu.com/">道道通</a></span></span></div></div>
+ 	<div style="width: 95%; height: 295px; border: 1px solid rgb(204, 204, 204); overflow: hidden; position: relative; z-index: 0; color: rgb(0, 0, 0); text-align: left; background-color: rgb(243, 241, 236);" id="map_container"><div style="overflow: visible; position: absolute; z-index: 0; left: 0px; top: 0px; cursor: url(http://api.map.baidu.com/images/openhand.cur) 8 8, default;"><div class="BMap_mask" style="position: absolute; left: 0px; top: 0px; z-index: 9; overflow: hidden; -webkit-user-select: none; width: 0px; height: 0px;"></div><div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 200;"><div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 800;"></div><div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 700;"><span class="BMap_Marker BMap_noprint" unselectable="on" "="" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; width: 19px; height: 25px; left: -10px; top: -25px; z-index: -6715558; background: url(http://api.map.baidu.com/images/blank.gif);" title=""></span></div><div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 600;"></div><div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 500;"></div><div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 400;"><span class="BMap_Marker" unselectable="on" style="position: absolute; padding: 0px; margin: 0px; border: 0px; width: 0px; height: 0px; left: -10px; top: -25px; z-index: -6715558;"><div style="position: absolute; margin: 0px; padding: 0px; width: 19px; height: 25px; overflow: hidden;"><img src="<?php echo (C("static_path")); ?>images/marker_red_sprite.png" style="border:none;left:0px; top:0px; position:absolute;"></div></span></div><div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 300;"><span unselectable="on" style="position: absolute; padding: 0px; margin: 0px; border: 0px; width: 20px; height: 11px; left: -6px; top: -11px;"><div style="position: absolute; margin: 0px; padding: 0px; width: 20px; height: 11px; overflow: hidden;"><img src="<?php echo (C("static_path")); ?>images/marker_red_sprite.png" style="border:none;left:-19px; top:-13px; position:absolute;"></div></span></div><div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 200;"></div></div><div style="position: absolute; top: 0px; left: 0px; z-index: 1; -webkit-backface-visibility: hidden;"><div style="position: absolute; z-index: -100; left: 0px; top: 0px;"><img src="<?php echo (C("static_path")); ?>js/saved_resource" style="position: absolute; border: none; width: 256px; height: 256px; left: -168px; top: -18px; opacity: 1;"></div></div><div style="position: absolute; top: 0px; left: 0px; z-index: 2;"></div></div><div class=" anchorBL" style="height: 32px; position: absolute; z-index: 10; bottom: 0px; right: auto; top: auto; left: 1px; display: none;"><a title="到百度地图查看此区域" target="_blank" href="http://map.baidu.com/?sr=1" style="outline: none;"><img style="border:none;width:77px;height:32px" src="<?php echo (C("static_path")); ?>images/copyright_logo.png"></a></div><div id="zoomer" style="position:absolute;z-index:0;top:0px;left:0px;overflow:hidden;visibility:hidden;cursor:url(http://api.map.baidu.com/images/openhand.cur) 8 8,default"><div class="BMap_zoomer" style="top:0;left:0;"></div><div class="BMap_zoomer" style="top:0;right:0;"></div><div class="BMap_zoomer" style="bottom:0;left:0;"></div><div class="BMap_zoomer" style="bottom:0;right:0;"></div></div><div unselectable="on" class=" BMap_stdMpCtrl BMap_stdMpType0 BMap_noprint anchorTL" style="width: 62px; height: 204px; bottom: auto; right: auto; top: 10px; left: 10px; position: absolute; z-index: 1100;"><div class="BMap_stdMpPan"><div class="BMap_button BMap_panN" title="向上平移"></div><div class="BMap_button BMap_panW" title="向左平移"></div><div class="BMap_button BMap_panE" title="向右平移"></div><div class="BMap_button BMap_panS" title="向下平移"></div><div class="BMap_stdMpPanBg BMap_smcbg"></div></div><div class="BMap_stdMpZoom" style="height: 159px; width: 62px;"><div class="BMap_button BMap_stdMpZoomIn" title="放大一级"><div class="BMap_smcbg"></div></div><div class="BMap_button BMap_stdMpZoomOut" title="缩小一级" style="top: 138px;"><div class="BMap_smcbg"></div></div><div class="BMap_stdMpSlider" style="height: 120px;"><div class="BMap_stdMpSliderBgTop" style="height: 120px;"><div class="BMap_smcbg"></div></div><div class="BMap_stdMpSliderBgBot" style="top: 25px; height: 99px;"></div><div class="BMap_stdMpSliderMask" title="放置到此级别"></div><div class="BMap_stdMpSliderBar" title="拖动缩放" style="cursor: url(http://api.map.baidu.com/images/openhand.cur) 8 8, default; top: 25px;"><div class="BMap_smcbg"></div></div></div><div class="BMap_zlHolder"><div class="BMap_zlSt"><div class="BMap_smcbg"></div></div><div class="BMap_zlCity"><div class="BMap_smcbg"></div></div><div class="BMap_zlProv"><div class="BMap_smcbg"></div></div><div class="BMap_zlCountry"><div class="BMap_smcbg"></div></div></div></div></div><div unselectable="on" class=" BMap_cpyCtrl anchorBL" style="cursor: default; white-space: nowrap; color: black; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: 15px; font-family: arial, sans-serif; bottom: 2px; right: auto; top: auto; left: 4px; position: absolute; z-index: 10; background: none;"><span _cid="1" style="display: inline;"><span style="font-size:11px">© 2015 Baidu&nbsp;- Data © <a target="_blank" href="http://www.navinfo.com/">NavInfo</a> &amp; <a target="_blank" href="http://www.cennavi.com.cn/">CenNavi</a> &amp; <a target="_blank" href="http://www.365ditu.com/">道道通</a></span></span></div></div>
                     <!--百度地图-->
-<script type="text/javascript" src="{$Think.config.static_path}js/api"></script><script type="text/javascript" src="{$Think.config.static_path}js/getscript"></script><link rel="stylesheet" type="text/css" href="{$Think.config.static_path}css/bmap.css">
+<script type="text/javascript" src="<?php echo (C("static_path")); ?>js/api"></script><script type="text/javascript" src="<?php echo (C("static_path")); ?>js/getscript"></script><link rel="stylesheet" type="text/css" href="<?php echo (C("static_path")); ?>css/bmap.css">
 <script type="text/javascript">
 var point = "114.020136,33.577793";
 var mapX=point.split(',')[0];var mapY=point.split(',')[1];
@@ -728,7 +723,7 @@ $(function (){
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-   			  <a href="http://www.188xi.com/3-86175#"><img class="iconimage" src="{$Think.config.static_path}images/5.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name8167">爱情宣言</span></a>            </div>
+   			  <a href="http://www.188xi.com/3-86175#"><img class="iconimage" src="<?php echo (C("static_path")); ?>images/5.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name8167">爱情宣言</span></a>            </div>
             </div>
             </div>
             <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
@@ -762,7 +757,7 @@ $(function (){
             <div class="button-mr">
             <div class="button-ml">
 			<div class="button-mm">
-    			<a href="http://www.188xi.com/3-86175#"><img class="iconimage" src="{$Think.config.static_path}images/6.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">婚礼提醒</span></a>            </div>
+    			<a href="http://www.188xi.com/3-86175#"><img class="iconimage" src="<?php echo (C("static_path")); ?>images/6.png" border="0" align="absmiddle">&nbsp;<span id="invite_detail_name7167">婚礼提醒</span></a>            </div>
             </div>
             </div>
             <div class="button-br"><div class="button-bl"><div class="button-bm"></div></div></div>
@@ -780,7 +775,7 @@ $(function (){
                 <div style="font-size:14px; margin-bottom:5px">距婚礼开始还有:</div>
                 <div style="width:100%" align="center">
                                   <div id="_lefttime" style="border:1px solid #777; width:90%; text-align:center; background-color:#FFC; font-size:22px; color:#777;">
-                                      {$left_days}天
+                                      <?php echo ($left_days); ?>天
                                   </div>
 
 
@@ -828,7 +823,7 @@ $(function (){
 <span id="musicControl">
     <a id="mc_play" class="on" onclick="play_music();">
 		<audio id="musicfx" loop="" autoplay="">
-			<source src="{$Think.config.static_path}images/6.mp3" type="audio/mpeg">
+			<source src="<?php echo (C("static_path")); ?>images/6.mp3" type="audio/mpeg">
 		</audio>
 	</a>
 </span>
@@ -904,7 +899,7 @@ var _hmt = _hmt || [];
 
 
 </div><!--showphp:default/xt/s2_1.php-->
-<script type="text/javascript" src="{$Think.config.static_path}js/jweixin-1.0.0.js"></script>
+<script type="text/javascript" src="<?php echo (C("static_path")); ?>js/jweixin-1.0.0.js"></script>
 
 
 

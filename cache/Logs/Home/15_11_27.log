@@ -1,0 +1,96 @@
+[ 2015-11-27T17:51:10+08:00 ] 10.60.155.2 /wedding/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `wedding` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wedding` ORDER BY time desc LIMIT 10000   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_Count FROM `wedding` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2015-11-27T18:04:56+08:00 ] 10.60.155.2 /wedding/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `wedding` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wedding` ORDER BY time desc LIMIT 10000   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_Count FROM `wedding` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+
+[ 2015-11-27T18:15:25+08:00 ] 10.60.155.2 /wedding/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `wedding` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wedding` ORDER BY time desc LIMIT 5   [ RunTime:0.0002s ]
+ERR: main: data:[{"id":"6","name":"test002","phone":"18516965201","trunout":"1","blessing":"asdf","time":"2015-11-27 15:44:16"},{"id":"5","name":"test00000","phone":"18415155101","trunout":"1","blessing":"asdfasd","time":"2015-11-27 15:42:50"},{"id":"4","name":"test00","phone":"18516965201","trunout":"1","blessing":"asdfasdf","time":"2015-11-27 15:41:28"},{"id":"3","name":"test001","phone":"18516965201","trunout":"1","blessing":"asdfasdf","time":"2015-11-27 15:40:00"},{"id":"2","name":"asdf","phone":"18516965201","trunout":"1","blessing":"asdfas","time":"2015-11-24 16:20:12"}]
+SQL: SELECT * FROM `wedding` ORDER BY time desc LIMIT 10000   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(id) AS tp_Count FROM `wedding` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2015-11-27T18:17:08+08:00 ] 10.60.155.2 /wedding/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `wedding` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wedding` ORDER BY time desc LIMIT 5   [ RunTime:0.0003s ]
+ERR: main: data:[{"id":"6","name":"test002","phone":"18516965201","trunout":"1","blessing":"asdf","time":"2015-11-27 15:44:16"},{"id":"5","name":"test00000","phone":"18415155101","trunout":"1","blessing":"asdfasd","time":"2015-11-27 15:42:50"},{"id":"4","name":"test00","phone":"18516965201","trunout":"1","blessing":"asdfasdf","time":"2015-11-27 15:41:28"},{"id":"3","name":"test001","phone":"18516965201","trunout":"1","blessing":"asdfasdf","time":"2015-11-27 15:40:00"},{"id":"2","name":"asdf","phone":"18516965201","trunout":"1","blessing":"asdfas","time":"2015-11-24 16:20:12"}]
+SQL: SELECT * FROM `wedding` ORDER BY time desc LIMIT 10000   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(id) AS tp_Count FROM `wedding` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
