@@ -11,7 +11,7 @@ return array(
 
     'LOG_EXCEPTION_RECORD' => true,
     'LOG_LEVEL'  => 'EMERG,ALERT,CRIT,ERR,WARN,NOTIC,INFO,DEBUG,SQL',
-    'HOME_PAGE' => '/',
+    'HOME_PAGE' => '/wedding/main',
     'STATIC_PATH' => '/Public/'. strtolower(MODULE_NAME). '/dev/',
     'ACTION_SUFFIX' => 'Action',
 
